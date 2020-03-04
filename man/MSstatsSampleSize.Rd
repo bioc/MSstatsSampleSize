@@ -3,7 +3,6 @@
 \docType{package}
 \name{MSstatsSampleSize}
 \alias{MSstatsSampleSize}
-\alias{MSstatsSampleSize-package}
 \title{MSstatsSampleSize: A package for optimal design of high-dimensional MS-based proteomics experiment}
 \description{
 A set of functions for sample size calculation. The packages estimates the variance in the input protein abundance data
@@ -19,6 +18,7 @@ It reports the mean predictive accuracy of the classifier and mean protein impor
   \item \code{\link{designSampleSizeClassification}} : estimate the mean predictive accuracy and protein importance over all the simulated datasets.
   \item \code{\link{designSampleSizePCAplot}} : make PCA plots with the first two components for each simulated dataset.
   \item \code{\link{designSampleSizeClassificationPlots}} : visualization for sample size calculation in classification.
+  \item \code{\link{designSampleSizeHypothesisTestingPlot}} : Sample size calculation plot for hypothesis testing.
 }
 }
 

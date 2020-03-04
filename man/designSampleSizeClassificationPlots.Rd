@@ -4,21 +4,29 @@
 \alias{designSampleSizeClassificationPlots}
 \title{Visualization for sample size calculation in classification}
 \usage{
-designSampleSizeClassificationPlots(data, list_samples_per_group,
-  num_important_proteins_show = 10, protein_importance_plot = TRUE,
-  predictive_accuracy_plot = TRUE, x.axis.size = 10,
-  y.axis.size = 10, protein_importance_plot_width = 3,
+designSampleSizeClassificationPlots(
+  data,
+  list_samples_per_group,
+  num_important_proteins_show = 10,
+  protein_importance_plot = TRUE,
+  predictive_accuracy_plot = TRUE,
+  x.axis.size = 10,
+  y.axis.size = 10,
+  protein_importance_plot_width = 3,
   protein_importance_plot_height = 3,
   predictive_accuracy_plot_width = 4,
-  predictive_accuracy_plot_height = 4, ylimUp_predictive_accuracy = 1,
-  ylimDown_predictive_accuracy = 0, address = "")
+  predictive_accuracy_plot_height = 4,
+  ylimUp_predictive_accuracy = 1,
+  ylimDown_predictive_accuracy = 0,
+  address = ""
+)
 }
 \arguments{
 \item{data}{A list of outputs from function \code{\link{designSampleSizeClassification}}. Each element represents the results under a specific sample size.
 The input should include at least two simulation results with different sample sizes.}
 
 \item{list_samples_per_group}{A vector includes the different sample sizes simulated. This is required.
-The number of simulation in the input `data' should be equal to the length of list_samples_per_group}
+The number of simulated sample sizes in the input `data' should be equal to the length of list_samples_per_group}
 
 \item{num_important_proteins_show}{The number of proteins to show in protein importance plot.}
 
