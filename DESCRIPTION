@@ -1,7 +1,7 @@
 Package: MSstatsSampleSize
 Type: Package
 Title: Simulation tool for optimal design of high-dimensional MS-based proteomics experiment
-Version: 1.5.0
+Version: 1.6.0
 Date: 2020-03-03
 Authors@R: c(
     person("Ting","Huang", , "thuang0703@gmail.com", c("aut", "cre")), 
