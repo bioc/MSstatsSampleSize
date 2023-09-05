@@ -119,7 +119,7 @@
                                   y = y,
                                   classifier = classifier)
 
-    pred.features <- rownames(varImp(model, scale = TRUE)$importance)[seq(top_K)]
+    pred.features <- rownames(caret::varImp(model, scale = TRUE)$importance)[seq(top_K)]
 
     pred.model <- .classificationModel(x = x[, pred.features],
                                        y = y,

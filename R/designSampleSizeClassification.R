@@ -220,7 +220,7 @@ designSampleSizeClassification <- function(simulations,
         # record the importance of each protein
         imp <- varImp(results[[i]]$model, scale = TRUE)$importance
         # select the top-k important proteins
-        imp.prots <- rownames(imp)[order(imp, decreasing=TRUE)][seq_len(top_K)]
+        imp.prots <- rownames(imp)[order(imp$Overall, decreasing=TRUE)][seq_len(top_K)]
         # if important, set 1; otherwise,set 0
         imp$Important <- ifelse(rownames(imp) %in% imp.prots, 1, 0)
 
