@@ -1,7 +1,7 @@
 Package: MSstatsSampleSize
 Type: Package
 Title: Simulation tool for optimal design of high-dimensional MS-based proteomics experiment
-Version: 1.15.2
+Version: 1.15.3
 Date: 2023-09-04
 Authors@R: c(
     person("Ting","Huang", , "thuang0703@gmail.com", c("aut", "cre")), 
@@ -22,3 +22,4 @@ LazyData: true
 URL: http://msstats.org
 BugReports: https://groups.google.com/forum/#!forum/msstats
 RoxygenNote: 7.0.2
+PackageStatus: Deprecated
